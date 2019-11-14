@@ -4,7 +4,7 @@ import { AddChallengeComponent } from './add-challenge/add-challenge.component';
 
 
 const routes: Routes = [
-  { path: 'add-challenge', component: AddChallengeComponent },
+  { path: 'add-challenge', component: AddChallengeComponent }
 ];
 
 @NgModule({
