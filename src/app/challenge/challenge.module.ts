@@ -7,18 +7,21 @@ import {
   MatButtonModule,
   MatFormFieldModule,
   MatInputModule,
-  MatRippleModule
+  MatRippleModule,
+  MatCardModule
 } from '@angular/material';
+import { ChallengesListComponent } from './challenges-list/challenges-list.component';
 
 @NgModule({
-  declarations: [AddChallengeComponent],
+  declarations: [AddChallengeComponent, ChallengesListComponent],
   imports: [
     CommonModule,
     ChallengeRoutingModule,
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    MatRippleModule
+    MatRippleModule,
+    MatCardModule
   ]
 })
 export class ChallengeModule { }
