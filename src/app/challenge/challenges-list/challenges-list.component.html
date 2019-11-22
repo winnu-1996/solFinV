@@ -1,8 +1,18 @@
 <p>challenges-list works!</p>
-<div>
+<div fxLayout='row' fxLayoutAlign="end center" style="margin-right: 10px">
     <button mat-raised-button color="primary" (click)="goToAddNewChallengeWithSolution()">Add Challenge</button>
 </div>
 
-<mat-card class="example-card">
-  
-</mat-card>
+<div *ngFor="let list of challengesList">
+    <mat-card class="example-card">
+        <mat-card-content>
+            <p>
+                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                bred for hunting.
+            </p>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<router-outlet></router-outlet>

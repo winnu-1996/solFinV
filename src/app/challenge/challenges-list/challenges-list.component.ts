@@ -8,6 +8,42 @@ import { Router } from '@angular/router';
 })
 export class ChallengesListComponent implements OnInit {
 
+  public challengesList: any[] = [
+    {
+      'challengeName': '',
+      'challengeDesc': '',
+      'solution': ''
+    }, {
+      'challengeName': '',
+      'challengeDesc': '',
+      'solution': ''
+    }, {
+      'challengeName': '',
+      'challengeDesc': '',
+      'solution': ''
+    }, {
+      'challengeName': '',
+      'challengeDesc': '',
+      'solution': ''
+    }, {
+      'challengeName': '',
+      'challengeDesc': '',
+      'solution': ''
+    }, {
+      'challengeName': '',
+      'challengeDesc': '',
+      'solution': ''
+    }, {
+      'challengeName': '',
+      'challengeDesc': '',
+      'solution': ''
+    }, {
+      'challengeName': '',
+      'challengeDesc': '',
+      'solution': ''
+    }
+  ]
+
   constructor(private router: Router) { }
 
   ngOnInit() {

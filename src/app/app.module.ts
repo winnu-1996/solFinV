@@ -7,6 +7,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChallengeModule } from './challenge/challenge.module';
 import { MatToolbarModule, MatButtonModule, MatIconRegistry, MatIconModule, MatListModule, MatSidenavModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatCardModule } from '@angular/material/card';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     FlexLayoutModule,
     MatIconModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatInputModule,
+    MatSelectModule,
+    MatRadioModule,
+    MatCardModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

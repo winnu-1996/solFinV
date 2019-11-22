@@ -11,6 +11,7 @@ import {
   MatCardModule
 } from '@angular/material';
 import { ChallengesListComponent } from './challenges-list/challenges-list.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [AddChallengeComponent, ChallengesListComponent],
@@ -20,6 +21,7 @@ import { ChallengesListComponent } from './challenges-list/challenges-list.compo
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
+    FlexLayoutModule,
     MatRippleModule,
     MatCardModule
   ]

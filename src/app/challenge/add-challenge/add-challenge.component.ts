@@ -15,7 +15,4 @@ export class AddChallengeComponent implements OnInit {
         //  this.getParentRouteData();
     }
 
-
-
-
 }
